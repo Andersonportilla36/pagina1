@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi perfil</title>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); </style>
+    <link rel="stylesheet" href="css/main.css ">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/profile.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/contac.css">
+    <link rel="stylesheet" href="./css/experiencies.css">
+    <script defer src="./js/app.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <nav class="nav__header">
+
+            <a href="#" class="logo">
+                <img src="./imagnes/Logo-anderson.png" alt="mi logo" class="img__logo">
+
+                <div>
+                    <h1 class="title__logo">Anderson Portilla <br> {code}</h1>
+                </div>
+
+           </a>
+
+           <button class="open__menu" aria-label="abrir menu">
+                <img src="./imagnes/menu (1).png" alt="abrir menu">           
+           </button>
+
+           <ul class="menu menu_opened">
+
+            <button class="close__menu" aria-label="cerrar menu">
+                <img src="./imagnes/cerrar.png" alt="cerrar menu">           
+           </button>
+
+            <li class="lista__menu"><a href="#profile" class="selected">Perfil</a></li>
+            <li class="lista__menu"><a href="#experiencie">Experiencia</a></li>
+            <li class="lista__menu"><a href="#skills">Habilidades</a></li>
+            <li class="lista__menu"><a href="#Contact">Contacto</a></li>
+           </ul>
+ 
+        </nav>
+    </header>
+
+    <div class="horizontal__padding vertical__padding">     
+         <section class="profile" id="profile">
+              <div class="profile__info">
+                 <h1 class="profile__title">Hola, soy <br> Anderson Portilla</br></h1>
+                 <p class="profile__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, totam, provident a accusantium est ratione maxime necessitatibus sunt nihil sapiente consectetur voluptatibus aliquam. Ratione, assumenda laboriosam itaque reprehenderit optio doloremque.</p>
+                 <button class="profile__btn">
+                  Descargar cv 
+                  <a href=""></a>               
+                  </button>
+              </div>
+
+              <span class="profile__img__section">
+                  <img class="profile__img" src="./imagnes/Logo-anderson.png" alt="programador">
+              <div class="profile__img__line"></div>
+             </span>
+         </section>
+    </div>
+
+    <section class="experiencies" id="experiencie">
+        <div class="experiencias__body">
+            <h2 class="experiencias__title">Experiencia</h2>
+            <div class="experiencias__grid">
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experiencia">
+                    <div class="experiencia__date">2020-2023</div>
+                    <div class="experiencia__company">Agencia Idp</div>
+                    <div class="experiencia__position">Junior Software Engineer</div>
+                    <div class="experiencia__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptatibus ut ad. Quam natus voluptas dicta vero, dolores doloremque ducimus omnis asperiores numquam blanditiis officia cupiditate exercitationem illo itaque ratione.
+                    </div>
+                </div>
+
+                <div class="experiencia experiencia__left">
+                    <div class="experiencia__date">2020-2023</div>
+                    <div class="experiencia__company">Agencia Idp</div>
+                    <div class="experiencia__position">Junior Software Engineer</div>
+                    <div class="experiencia__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptatibus ut ad. Quam natus voluptas dicta vero, dolores doloremque ducimus omnis asperiores numquam blanditiis officia cupiditate exercitationem illo itaque ratione.
+                    </div>
+                </div>
+
+                <div class="line"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experiencia">
+                    <div class="experiencia__date">2020-2023</div>
+                    <div class="experiencia__company">Agencia Idp</div>
+                    <div class="experiencia__position">Junior Software Engineer</div>
+                    <div class="experiencia__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptatibus ut ad. Quam natus voluptas dicta vero, dolores doloremque ducimus omnis asperiores numquam blanditiis officia cupiditate exercitationem illo itaque ratione.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    
+    </section>
+
+    <div class="horizontal__padding vertical__padding">
+        <section class="skills" id="skills">
+            <h2 class="skills__title">Habilidades</h2>
+            <ul class="skills__list">
+                <li class="skills__skills">HTML</li>
+                <li class="skills__skills">CSS</li>
+                <li class="skills__skills">JavaScript</li>
+                <li class="skills__skills">React Js</li>
+                <li class="skills__skills">Word press</li>
+                <li class="skills__skills">Elementor</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="horizontal__padding vertical__padding">
+        <section class="contact" id="contact">
+            <h2 class="contact__title">Contacto</h2>
+            <div class="contact__details">
+                <div class="contact__details__group">
+                   <p class="contact__label">Direción</p>
+                   <p class="contact__text">Putumayo, Colombia</p> 
+                </div>
+
+                <div class="contact__details__group">
+                    <p class="contact__label">Email:</p>
+                    <p class="contact__text">andersonportilla367@gmail.com</p> 
+                 </div>
+
+                 <div class="contact__details__group">
+                    <p class="contact__text">Deje su mensaje y con gusto le respondere </p> 
+                 </div>
+            </div>
+            
+            <form class="contact__form">
+                <div class="contact__form__group">
+                    <label for="name">Nombre</label>
+                    <input required type="text" name="name" id="name">
+                </div>
+
+                <div class="contact__form__group">
+                    <label for="email">Email</label>
+                    <input required type="email" name="email" id="email">
+                </div>
+
+                <div class="contact__form__group">
+                    <label for="name">Mensaje</label>
+                    <textarea required name="message" id="message"  rows="6"></textarea>
+                </div>
+
+                <button type="submit" class="contact__form__submit">Enviar</button>
+            </form>
+
+            <nav class="social">
+                <ul class="social__list">
+                    <li>
+                        <a href="https://www.facebook.com/andersonportilla02/">
+                            <img src="./imagnes/icons/facebook (1).png" alt="facebook">
+                        </a>
+                   </li>
+
+                   <li>
+                    <a href="https://www.instagram.com/anderson_daniel.dilan/">
+                        <img src="./imagnes/icons/instagram.png" alt="insatagram">
+                    </a>
+               </li>
+
+               <li>
+                <a href="https://github.com/Andersonportilla36/">
+                    <img src="./imagnes/icons/github.png" alt="git hub">
+                </a>
+           </li>
+                </ul>
+            </nav>
+        </section>
+    </div>       
+
+
+</body>
+</html>
